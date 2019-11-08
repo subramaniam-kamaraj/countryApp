@@ -1,0 +1,50 @@
+.text {
+  top: 50%;
+  right: 70%;
+  text-align: center;
+  /* transform: translate(50%, -50%); */
+  text-transform: uppercase;
+  font-family: verdana;
+  font-size: 2 em;
+  font-weight: 70;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+    1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+body {
+  background-image: url('k1.jpg');
+  opacity: 200;
+}
+
+td {
+  color: black;
+  text-shadow: 10px 10px 10px white;
+}
+
+thead,
+td {
+  top: 50%;
+  right: 50%;
+  text-align: center;
+  /* transform: translate(50%, -50%); */
+  text-transform: uppercase;
+  font-family: verdana;
+  font-size: 2 em;
+  font-weight: 50;
+  /* color: #f5f5f5; */
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191;
+}
+table {
+  width: 100%;
+  background-origin: shadow 20px;
+}
+tbody {
+  overflow-y: auto;
+  height: 200px;
+  width: 100%;
+}
